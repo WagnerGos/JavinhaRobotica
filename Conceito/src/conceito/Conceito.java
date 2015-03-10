@@ -20,15 +20,15 @@ public class Conceito {
         
         //Atribuindo o conceito do aluno de acordo com sua nota
         if(media >= 9 || media == 10){
-            JOptionPane.showMessageDialog(null, "Seu conceito é A");
+            JOptionPane.showMessageDialog(null, "Suas notas é: " + " Primeira Nota " + nota1 + " Segunda Nota " + nota2 + "Sua media é igual a: " + media + "Seu conceito é A, Parabéns você foi APROVADO");
         }else if(media >= 7.5 || media < 9){
-            JOptionPane.showMessageDialog(null, "Seu conceito é B");
+            JOptionPane.showMessageDialog(null, "Suas notas é: " + " Primeira Nota " + nota1 + " Segunda Nota " + nota2 + "Sua media é igual a: " + media + "Seu conceito é B, Parabéns você foi APROVADO");
         }else if(media >= 6 || media < 7.5){
-            JOptionPane.showMessageDialog(null, "Seu conceito é C");
+            JOptionPane.showMessageDialog(null, "Suas notas é: " + " Primeira Nota " + nota1 + " Segunda Nota " + nota2 + "Sua media é igual a: " + media + "Seu conceito é C, Parabéns você foi APROVADO");
         }else if(media >= 4 || media < 6){
-            JOptionPane.showMessageDialog(null, "Seu conceito é D");
+            JOptionPane.showMessageDialog(null, "Suas notas é: " + " Primeira Nota " + nota1 + " Segunda Nota " + nota2 + "Sua media é igual a: " + media + "Seu conceito é D, Você foi REPROVADO");
         }else{
-            JOptionPane.showMessageDialog(null, "Seu conceito é E");
+            JOptionPane.showMessageDialog(null, "Suas notas é: " + " Primeira Nota " + nota1 + " Segunda Nota " + nota2 + "Sua media é igual a: " + media + "Seu conceito é E, Você foi REPROVADO");
         }
         
         Scanner conceito = new Scanner(System.in); //Criando um objeto de leitura de dados do teclado
@@ -42,15 +42,15 @@ public class Conceito {
         
         //Atribuindo o conceito do aluno de acordo com sua nota
         if(media >= 9 || media == 10){
-            System.out.println("Seu conceito é A");
+            System.out.println("Suas notas é: " + " Primeira Nota " + nota1 + " Segunda Nota " + nota2 + "Sua media é igual a: " + media + "Seu conceito é A, Parabéns você foi APROVADO");
         }else if(media >= 7.5 || media < 9){
-            System.out.println("Seu conceito é B");
+            System.out.println("Suas notas é: " + " Primeira Nota " + nota1 + " Segunda Nota " + nota2 + "Sua media é igual a: " + media + "Seu conceito é B, Parabéns você foi APROVADO");
         }else if(media >= 6 || media < 7.5){
-            System.out.println("Seu conceito é C");
+            System.out.println("Suas notas é: " + " Primeira Nota " + nota1 + " Segunda Nota " + nota2 + "Sua media é igual a: " + media + "Seu conceito é C, Parabéns você foi APROVADO");
         }else if(media >= 4 || media < 6){
-            System.out.println("Seu conceito é D");
+            System.out.println("Suas notas é: " + " Primeira Nota " + nota1 + " Segunda Nota " + nota2 + "Sua media é igual a: " + media + "Seu conceito é D, Você foi REPROVADO");
         }else{
-            System.out.println("Seu conceito é E");
+            System.out.println("Suas notas é: " + " Primeira Nota " + nota1 + " Segunda Nota " + nota2 + "Sua media é igual a: " + media + "Seu conceito é E, Você foi REPROVADO");
         }
     }
     
